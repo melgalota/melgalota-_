@@ -159,7 +159,7 @@ img{
         border: 0px;
         }
 
-body::before {
+/* body::before {
     content: "XS";
     color: red;
     font-size: 2rem;
@@ -167,7 +167,7 @@ body::before {
     position: fixed;
     top: 0;
     right: 0;
-}
+} */
 
 
 .box {
