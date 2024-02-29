@@ -1,17 +1,11 @@
-
-
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 .titulo{
     background-image: url(./img/portada.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 630px;
+    height: 800px;
 }
 
 .titulo img{
@@ -24,8 +18,8 @@
 
 .quisom h1{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-size: 75px;
     font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -45,10 +39,9 @@
 }
 
 .col img{
-    width: 550px;
-    height: 250px;
+    width: 100%;
     text-align: center;
-    padding-left: 150px;
+    padding-left: 10%;
     transition: all 0.5s;
   
 
@@ -74,21 +67,26 @@ img{
 
 
 .col a{
+    text-decoration: none;
+}
+.col p{
     text-align: center;
-    width: 450px;
+/*    width: 450px;*/
     display: flex;
     justify-content: center;
-    padding-left: 233px;
+/*    padding-left: 233px;*/
     padding-top: 30px;
     padding-bottom: 30px;
     text-decoration: none;
     color: white;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 
 .col{
     transition: all 0.5s;
+
 }
 
 
@@ -99,7 +97,7 @@ img{
 
 }
 
-.col a:hover{
+.col p:hover{
     color: black;
 }
 
@@ -113,28 +111,19 @@ img{
        
 }
 
-.definicion{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 100px;
-    
-}
 
-.definicion img{
-    padding-left: 186px;
-}
 
-.col3 p{
+/*.col3 p{
     width: 600px;
-    padding-left: 50px;
-    font-size: 25px;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    border: 2px solid #fff; /* 2px de ancho, sólido y color negro (puedes ajustar estos valores según tus preferencias) */
-    
+        padding-left: 50px;
+        font-size: 25px;
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        border: 2px solid #fff;  2px de ancho, sólido y color negro (puedes ajustar estos valores según tus preferencias)
+   
+ 
 }
-
+*/
 
 .serveis h2{
     text-align: center;
@@ -220,15 +209,15 @@ body::before {
 
 
 
+
+
 #footer{
 	border-top: 3px solid white;
 	background: #1f1f1f;
 	color: white;
 }
 
-#footer p{
-    padding-bottom: 100px;
-}
+
 .container3{
 	display: flex;
 	justify-content: center;
@@ -297,3 +286,106 @@ body::before {
 .sec img{
 	width: 250px;
 }
+
+
+    /*  apanyo  */
+
+ @media screen and (max-width: 768px){
+    .apanyo6{
+        display: flex !important;
+        align-items: center !important; 
+        flex-direction: column !important;
+    }
+    .apanyo7{
+        border-left: 2px solid #FAFAFA;
+        border-right: 2px solid #FAFAFA;
+        
+    }
+    .apanyo8{
+        margin: 0px 0px 120px 0px !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .apanyo10{
+        display: flex !important;
+        align-items: center !important; 
+        flex-direction: column !important;
+    }
+     .apanyo9 p{
+        font-size: 2.5em !important;
+    }
+}
+
+.apanyo9{
+        padding-right: 5%;
+    }
+ 
+ @media screen and (max-width: 1200px){
+    .apanyo9{
+        padding-right: 10%;
+    }
+ } 
+
+
+
+        /* Qui Som ? */
+.pare1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pare1 h4{
+    font-family: "Oswald", sans-serif;
+/*    border: 2px solid #222;*/
+    box-shadow: 0px 0px 15px #222;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #101030;
+    color: #FAFAFA;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-around; 
+
+    margin-top: 70px;
+}
+
+.clients h5{
+    margin: 15px;
+}
+
+.clients p{
+    margin-bottom: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persona img{
+    box-shadow: 0px 0px 15px #222;
+    border-radius: 300px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+        /* i i i */
+
+.iii{
+    margin-bottom: 1000px;
+}
+
